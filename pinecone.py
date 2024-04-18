@@ -4,8 +4,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Pinecone
 import os
 
-os.environ["OPENAI_API_KEY"] = ""
-os.environ["PINECONE_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = "sk-proj-WeUVhoPcBRsAgykFzAsRT3BlbkFJAaQMAgCYbz54CM5H85VR"
+os.environ["PINECONE_API_KEY"] = "b405078f-8324-429b-b57c-77625f973a81"
 os.environ["PINECONE_ENV"] = "gcp-starter"
 
 def loadText():
